@@ -1,6 +1,26 @@
 .gallery{
     text-align: center;
+    width: ;
 }
 .image_container{
-    
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    border: 5px solid darkred;
+    box-shadow: 5px 5px 5px rgba(5, 161, 5, 0.55);
 }
+
+.image_container img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.image_container:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+
+}   
